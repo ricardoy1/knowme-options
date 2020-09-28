@@ -9,12 +9,12 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-	  "heroku-postbuild": "npm install --save serve && npm install && npm run build"
+    "heroku-postbuild": "npm install --save serve && npm install && npm run build"
   },
   "private": true,
-	"engines": {
-		"node": "12.2.0"
-	},
+  "engines": {
+    "node": "12.2.0"
+  },
   "dependencies": {
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
@@ -39,7 +39,8 @@
     "ngx-bootstrap": "^1.6.6",
     "ngx-ui-switch": "^1.2.4",
     "rxjs": "^5.1.0",
-    "sortablejs": "^1.5.1",
+    "serve": "^11.3.2",
+    "sortablejs": "^1.12.0",
     "zone.js": "0.8.5"
   },
   "devDependencies": {
